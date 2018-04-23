@@ -1,0 +1,185 @@
+/* ------------------------------------------------------------ */
+/* imports and utilities */
+
+/* 3rd-party CSS files */
+@import 'vendor/h5bp-head.css';
+@import 'vendor/normalize.css';
+@import 'vendor/h5bp-tail.css';
+
+/* use a more intuitive box sizing model (http://is.gd/wNVjAo) */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/* Scale down images and embedded videos so they don't overflow their parents */
+img, object { max-width: 100%; }
+
+/*	Development/layout aid. Remove the comments
+	on this rule in order to draw boxes around DIVs
+	and other elements used for layout. */
+/*
+div, main, article, section, aside, hgroup, header, footer, address, nav {
+	border: 1px solid rgba(255,0,0,0.15) !important;
+	background: rgba(255,0,0,0.05) !important;
+}
+*/
+
+
+/* ------------------------------------------------------------ */
+/* start project-specifc styles below this line */
+
+body {
+	font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5em;
+	color: #222;
+}
+
+/*	Generally, you will only want one container element in
+	the document, wrapping around the main content area.
+	If you have more than one container, you are probably doing
+	something wrong.
+*/
+.container {
+	margin-top: 1em;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.nav {
+    width: 100%;
+    background-color: white;
+		padding-left: 2em;
+		padding-right: 2em;
+		color: #6C97FF;
+		padding-top: 1em;
+		padding-bottom: 1em;
+}
+
+.navpart2 {
+    text-align: right;
+    font-size: 1.5em;
+    display: inline-block;
+    width: 50%;
+    top: -1em;
+    position: relative;
+}
+
+.navpart2 a {
+	margin-left: 0.5em;
+}
+
+.material-icons.md-size { font-size: 60px; }
+
+.title {
+    font-size: 5em;
+    font-family: "Oswald";
+    width: 49%;
+    display: inline-block;
+}
+
+.intropic {
+    background-color: grey;
+    background-image: url(../img/background4.jpg);
+    background-size: cover;
+    display: grid;
+    text-align: center;
+    color: white;
+    font-size: 10vh;
+    line-height: 10vh;
+    padding-bottom: 5vw;
+    padding-top: 5vw;
+    font-family: "Oswald";
+    margin-bottom: 1em;
+}
+
+.content {
+	padding-left: 5em;
+	padding-right: 5em;
+}
+
+.boxes {
+	display: grid;
+	grid-template-columns: 1fr .5fr 1fr .5fr 1fr;
+}
+
+.box1 {
+	background-color: grey;
+	grid-column: 1/2;
+	min-height: 15em;
+    background-image: url(../img/snowden.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.box2 {
+	background-color: grey;
+	grid-column: 3/4;
+}
+
+.box3 {
+	background-color: grey;
+	grid-column: 5/6;
+}
+
+.footer {
+    background-color: dimgrey;
+    margin-bottom: -1em;
+    margin-top: 1em;
+    color: white;
+    text-align: center;
+    display: grid;
+}
+.title:hover {
+	color: #FF8345;
+}
+
+a:hover {
+  color: #FF8345;
+}
+
+a {
+	color: #6C97FF;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #6C97FF;
+}
+
+.boxlink {
+    color: black;
+}
+.roster{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    justify-items: center;
+}
+.speakers {
+    border-radius: 50%;
+    max-height: 250px;
+    text-align: center;
+}
+.speakername{
+    text-align: center;
+}
+
+.speaker-big{
+    border-radius: 50%;
+    max-height: 500px;
+}
+
+@media (max-width: 800px){
+    .title {
+        display:inline;
+    }
+    .navpart2 {
+        position:static;
+        width: 100%;
+        text-align: center;
+    }   
+    .intropic {
+        background-position: center;
+    }
+    .boxes{
+        display: block;
+    }
+}
