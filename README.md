@@ -18,6 +18,7 @@ https://en.wikipedia.org/wiki/Tim_Berners-Lee#/media/File:Sir_Tim_Berners-Lee_(c
 https://www.dailydot.com/layer8/snowdenbot-seizure-moscow-aclu-nyc/
 https://freefeast.info/wp-content/uploads//2016/06/Tim-Berners-Lee-the-founder-of-World-Wide-Web4.jpg
 https://www.huffingtonpost.com/tavis-smiley/my-conversation-with-laur_b_6470488.html
+https://www.aiadc.com/rent-the-dac
 
 ***
 
