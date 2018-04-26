@@ -102,13 +102,13 @@ body {
 
 .boxes {
 	display: grid;
-	grid-template-columns: 1fr .5fr 1fr .5fr 1fr;
+	grid-template-columns: 1fr .25fr 1fr .25fr 1fr;
 }
 
 .box1 {
 	background-color: grey;
 	grid-column: 1/2;
-	min-height: 15em;
+	height: 15rem;
   background-image: url(../img/snowden.jpg);
   background-size: cover;
   background-position: center;
@@ -117,8 +117,8 @@ body {
 .box2 {
 	background-color: grey;
 	grid-column: 3/4;
-	min-height: 15em;
-	background-image: url(../img/speakers/berners-lee.jpg);
+	height: 15rem;
+	background-image: url(../img/berners-lee.jpg);
 	background-size: cover;
 	background-position: center;
 }
@@ -126,10 +126,18 @@ body {
 .box3 {
 	background-color: grey;
 	grid-column: 5/6;
-	min-height: 15em;
-	background-image: url(../img/speakers/cohn.jpg);
+	height: 15rem;
+	background-image: url(../img/poitras.jpg);
 	background-size: cover;
 	background-position: center;
+}
+
+.boxlink {
+    color: white;
+		text-align: center;
+		padding-top: 12rem;
+		text-shadow: 2px 2px 3px rgba(0,0,0,0.8);
+		font-size: 1.25em;
 }
 
 .footer {
@@ -157,14 +165,12 @@ a:visited {
 	color: #6C97FF;
 }
 
-.boxlink {
-    color: dimgrey;
-}
 .roster{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
     justify-items: center;
 }
+
 .speakers {
     border-radius: 50%;
     max-height: 250px;
@@ -179,35 +185,72 @@ a:visited {
     max-height: 500px;
 }
 
+.registration {
+	display: grid;
+	grid-template-columns: 1fr .25fr 1fr;
+}
+
+.column1 {
+	grid-column: 1/2;
+}
+
+.column2 {
+	grid-column: 3/4;
+}
+
+button {
+	margin-bottom: 1em;
+}
+
 @media (max-width: 800px){
 		.nav {
 			text-align: center;
 		}
+
     .title {
 				font-size: 4em;
 				margin-left: auto;
 				margin-right: auto;
 				width: 232px;
     }
+
     .navpart2 {
         position:static;
         width: 100%;
         text-align: center;
     }
+
     .intropic {
         background-position: center;
 				font-size: 8vh;
     }
+
+		.content {
+			padding-left: 3em;
+			padding-right: 3em;
+		}
+
     .boxes{
         display: block;
     }
+
 		.box1{
 			display: block;
 		}
+
 		.box2{
 			display: block;
 		}
+
 		.box3{
+			display: block;
+		}
+
+		.roster{
+			margin-left: -3em;
+			margin-right: -3em;
+		}
+		.registration {
 			display: block;
 		}
 }
