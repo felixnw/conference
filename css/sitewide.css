@@ -193,14 +193,14 @@ a:visited {
     color: white;
     font-size: 5vh;
     line-height: 5vh;
-    padding-bottom: 5vw;
-    padding-top: 5vw;
+    padding-bottom: 7vw;
+    padding-top: 7vw;
     font-family: "Oswald";
     margin-bottom: 1em;
 }
 .registration {
 	display: grid;
-	grid-template-columns: 1fr .25fr 1fr .25fr 1fr;
+	grid-template-columns: 1fr .5fr 1fr .5fr 1fr;
 }
 
 .column1 {
