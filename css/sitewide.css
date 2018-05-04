@@ -186,7 +186,7 @@ a:visited {
 }
 .regpic {
     background-color: grey;
-    background-image: url(../img/venue.jpg);
+    background-image: url(../img/venue.JPG);
     background-size: cover;
     display: grid;
     text-align: center;
