@@ -4,7 +4,8 @@ Starter files for intro web design/development
 
 STUDENTS: edit this file. Add text that describes your project. Include your name, web address, code/image citations, and any notes.
 
-https://unsplash.com/photos/e6feOPGL6ZQ
+Photo Sources:
+
 http://google.github.io/material-design-icons/
 https://unsplash.com/photos/yjMFOo2lpis
 https://www.wired.com/wp-content/uploads/2014/08/Cnt4_Fr53-1.jpg
@@ -19,6 +20,8 @@ https://www.dailydot.com/layer8/snowdenbot-seizure-moscow-aclu-nyc/
 https://freefeast.info/wp-content/uploads//2016/06/Tim-Berners-Lee-the-founder-of-World-Wide-Web4.jpg
 https://www.huffingtonpost.com/tavis-smiley/my-conversation-with-laur_b_6470488.html
 https://www.aiadc.com/rent-the-dac
+https://unsplash.com/photos/oN_cUY1v7hs
+https://unsplash.com/photos/oN_cUY1v7hs
 
 ***
 

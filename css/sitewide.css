@@ -78,7 +78,7 @@ body {
 
 .intropic {
     background-color: grey;
-    background-image: url(../img/background4.jpg);
+    background-image: url(../img/background.jpg);
     background-size: cover;
     display: grid;
     text-align: center;
@@ -98,6 +98,12 @@ body {
 
 .header {
 	line-height: 1em;
+    font
+}
+
+.brief {
+    font-size: 1.5em;
+    line-height: 1.25em;
 }
 
 .boxes {
@@ -180,13 +186,33 @@ a:visited {
     text-align: center;
 }
 
+.speakerbio {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+
+.name {
+    text-align: center;
+    font-size: 7vh;
+    line-height: 1em;
+    margin-top: 15vw;
+}
+
+.bigdata{
+    text-align: center;
+}
+
 .speaker-big{
     border-radius: 50%;
     max-height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .regpic {
     background-color: grey;
-    background-image: url(../img/venue.JPG);
+    background-image: url(../img/register.jpg);
     background-size: cover;
     display: grid;
     text-align: center;
@@ -215,6 +241,41 @@ a:visited {
 	grid-column: 5/6;
 }
 
+.schedulepic {
+    background-color: grey;
+    background-image: url(../img/schedule.jpg);
+    background-size: cover;
+    display: grid;
+    text-align: center;
+    color: white;
+    font-size: 5vh;
+    line-height: 5vh;
+    padding-bottom: 7vw;
+    padding-top: 7vw;
+    font-family: "Oswald";
+    margin-bottom: 1em;
+}
+
+.aboutpic {
+    background-color: grey;
+    background-image: url(../img/about.jpg);
+    background-size: cover;
+    display: grid;
+    text-align: center;
+    color: white;
+    font-size: 5vh;
+    line-height: 5vh;
+    padding-bottom: 7vw;
+    padding-top: 7vw;
+    font-family: "Oswald";
+    margin-bottom: 1em;
+}
+
+.abouttext{
+    font-size: 1.25em;
+    line-height: normal;
+}
+
 @media (max-width: 800px){
 		.nav {
 			text-align: center;
@@ -239,8 +300,8 @@ a:visited {
     }
 
 		.content {
-			padding-left: 3em;
-			padding-right: 3em;
+			padding-left: 5em;
+			padding-right: 5em;
 		}
 
     .boxes{
@@ -266,4 +327,12 @@ a:visited {
 		.registration {
 			display: block;
 		}
+        
+        .speakerbio {
+            display: block;
+        }
+    
+    .name {
+        margin-top: 0em;
+    }
 }
