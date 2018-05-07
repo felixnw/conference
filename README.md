@@ -4,6 +4,8 @@ Starter files for intro web design/development
 
 STUDENTS: edit this file. Add text that describes your project. Include your name, web address, code/image citations, and any notes.
 
+This is a website for the imaginary conference called Priv DC. It is a conference on privacy and surveillance. It is made by Felix and hosted at felixnw.github.io/conference
+
 Photo Sources:
 
 http://google.github.io/material-design-icons/

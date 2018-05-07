@@ -256,6 +256,11 @@ a:visited {
     margin-bottom: 1em;
 }
 
+.schedulecontent {
+	padding-left: 5em;
+	padding-right: 5em;
+}
+
 .aboutpic {
     background-color: grey;
     background-image: url(../img/about.jpg);
@@ -336,5 +341,10 @@ a:visited {
     
     .name {
         margin-top: 0em;
+    }
+    
+    .schedulecontent {
+        padding-left: 3em;
+        padding-right: 3em;
     }
 }
